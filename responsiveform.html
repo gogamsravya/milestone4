@@ -1,0 +1,105 @@
+<html>
+<head> 
+<title>Registration form for TCS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  padding-top: 50px;
+}
+#class{
+  width: 950px;
+  height: 1225px;
+  background-color: Lightskyblue;
+  margin: 0 auto;
+  border: 1px navy solid;  /* outer stroke */
+  outline: 1px navy solid;  /* inner stroke */
+  outline-offset: -2px;  /* negative border width + outline width */
+}
+</style>
+</head>
+<body style="background-color:white; "> 
+<div id="class">
+<ins><h1 style="text-align:center;">REGISTRATION FORM</h1></ins>
+<br>
+<h2>Personal details</h2>
+<form>
+<label style="font-size:25;"> Firstname: </label>       
+<input type="text" name="firstname" size="20"/> <br> 
+<label style="font-size:25;"> Lastname: </label>       
+<input type="text" name="lastname" size="20"/> <br> 
+<label style="font-size:25;"> Gender: </label>     
+<input type="radio" name="gender">Male
+<input type="radio" name="gender">Female
+<input type="radio" name="gender">others<br>
+<label style="font-size:25;" > Date of Birth:</label>
+  <input type="date" id="birthday" name="birthday"><br>
+<label style="font-size:25;"> Roll.No: </label>       
+<input type="text" name="Roll.No" size="20"/> <br> 
+<label style="font-size:25;"> AadharNumber: </label>       
+<input type="text" name="AadharNumber" size="20"/> <br> 
+<label style="font-size:25;">Email Id:</label>
+<input type="text" name="Email Id" size="20"/><br>
+<label style="font-size:25;">Password:</label>
+<input type="password" name="password" size="20"/><br>
+<label style="font-size:25;"> 
+Qualifications :
+</label> 
+<select>
+<option value="B.Tech">B.Tech</option>
+<option value="BBA">BBA</option>
+<option value="BCA">BCA</option>
+<option value="MBA">MBA</option>
+<option value="MCA">MCA</option>
+<option value="M.Tech">M.Tech</option>
+</select>
+<br>
+<label style="font-size:25;"> 
+course :
+</label> 
+<select>
+<option value="Course">Course</option>
+<option value="CSE">CSE</option>
+<option value="ECE">ECE</option>
+<option value="IT">IT</option>
+<option value="MECHANICAL">MECHANICAL</option>
+</select><br>
+<label style="font-size:25;"> 
+Xth CGPA:
+</label> 
+<input type="text" name="Xth CGPA" size="5"/> <label style="font-size:25;"> <br>
+XIIth CGPA:
+</label> 
+<input type="text" name="XIIth CGPA" size="5"/> <br> <br>
+<h2>Parent Details</h2>
+<label style="font-size:25;"> Mothername: </label>       
+<input type="text" name="Mothername" size="20"/> <br>
+<label style="font-size:25;"> Mother Occupation: </label>       
+<input type="text" name="Mother Occupation" size="20"/> <br>
+<label style="font-size:25;"> Mother PhoneNumber</label>   
+<input type="text" name="country code"  value="+91" size="2"/>     
+<input type="text" name="Mother PhoneNumber" size="20"/> <br> <br>
+<label style="font-size:25;"> Fathername: </label>       
+<input type="text" name="Fathername" size="20"/> <br> 
+<label style="font-size:25;"> Father-Occupation: </label>       
+<input type="text" name="Father-Occupation" size="20"/> <br> 
+<label style="font-size:25;"> Father PhoneNumber: </label>     
+<input type="text" name="country code"  value="+91" size="2"/>   
+<input type="text" name="Father PhoneNumber" size="20"/> <br> 
+<h2>upload resume</h2>
+<input type="file" 
+               id="file1" 
+               name="upload "><br>
+<h2>upload photo</h2>
+<input type="file" 
+               id="file1" 
+               name="upload ">
+<h2>Address:</h2>
+<textarea cols="80" rows="8" value="address"></textarea><br><br>
+ <input type="submit" value="Submit">
+</div>
+</form>
+</body>
+</html>
+
+
+
